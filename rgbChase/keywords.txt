@@ -11,3 +11,4 @@ smooth	KEYWORD2
 step	KEYWORD2
 pulse	KEYWORD2
 redtowhite	KEYWORD2
+siren	KEYWORD2

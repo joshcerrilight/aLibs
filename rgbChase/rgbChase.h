@@ -11,15 +11,20 @@
 class rgbChase	
 {
 	public:
-		rgbChase(int redOut, int grnOut, int bluOut,int dtime);
-		void smooth();
-		void step();
-		void pulse();
-		void redtowhite();
+		int dtime;
+		rgbChase(int redOut1,int redOut2, int grnOut1,int grnOut2,int bluOut1, int bluOut2);
+		void smooth(int dtime);
+		void step(int dtime);
+		void pulse(int dtime);
+		void redtowhite(int dtime);
+		void siren();
 	private:
-		int _redOut;
-		int _grnOut;
-		int _bluOut;
+		int _redOut1;
+		int _redOut2;
+		int _grnOut1;
+		int _grnOut2;
+		int _bluOut1;
+		int _bluOut2;
 		int _redV;
 		int _grnV;
 		int _bluV;
