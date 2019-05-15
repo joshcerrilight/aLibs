@@ -1,12 +1,12 @@
-//This is the KEYWORDS file for the rgbChase library
+#This is the KEYWORDS file for the rgbChase library
 
-//KEYWORD1 -> orange -> Classes
-//KEYWORD2 -> brown -> Functions
+#KEYWORD1 -> orange -> Classes
+#KEYWORD2 -> brown -> Functions
 
-//Classes
+#Classes
 rgbChase	KEYWORD1
 
-//Function
+#Function
 smooth	KEYWORD2
 step	KEYWORD2
 pulse	KEYWORD2
